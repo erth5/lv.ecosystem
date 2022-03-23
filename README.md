@@ -17,7 +17,17 @@ posssible addons:
 * telescope
 * valet
 
+For Simples, I have entered the following into the terminal:
 
+````
+composer create-project laravel/breeze
+composer create-project laravel/cashier
+composer create-project laravel/horizon
+composer create-project laravel/jetstream
+composer create-project laravel/octane
+composer create-project laravel/socialite
+composer create-project laravel/telescope
+composer create-project laravel/valet
+````
 
-
-ALL Addons must be installed in a Laravel-Project !
+,but ALL Addons must be installed in a previously created Laravel-Project to be functionable !
