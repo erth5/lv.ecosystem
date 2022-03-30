@@ -32,6 +32,13 @@ composer create-project laravel/valet
 composer create-project laravel/sanctum
 ````
 
+only dependencies:
+````
+mkdir <name> && cd <name>
+
+composer require livewire/livewire
+````
+
 ,but ALL Addons must be installed in a previously created Laravel-Project to be functionable !
 
 
