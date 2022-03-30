@@ -1,7 +1,7 @@
 # lv.ecosystem
 Collection on Addons they can be installed in Laravel Projects
 
-over 7700 files, so create it local itself:
+over 8000 ProjectFiles + 40.000 vendor, so create it local itself:
 
 ````
 composer create-project laravel/<name>
