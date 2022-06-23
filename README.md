@@ -4,7 +4,7 @@ Collection on Addons they can be installed in Laravel Projects
 
 over 8000 ProjectFiles + 40.000 vendor, so create it local itself:
 
-````
+````terminal
 composer create-project laravel/<name>
 ````
 
@@ -22,7 +22,8 @@ posssible addons:
 
 For Simples, I have entered the following into the terminal:
 
-````
+````terminal
+composer create-project spatie/laravel-permission
 composer create-project laravel/breeze
 composer create-project laravel/cashier
 composer create-project laravel/horizon
@@ -36,7 +37,7 @@ composer create-project laravel/sanctum
 
 only dependencies:
 
-````
+````terminal
 mkdir <name> && cd <name>
 
 composer require livewire/livewire
@@ -46,7 +47,7 @@ composer require livewire/livewire
 
 So use:
 
-````
+````terminal
 composer require laravel/breeze --dev
 composer require laravel/cashier
 composer require laravel/horizon
@@ -56,6 +57,7 @@ composer require laravel/socialite
 composer require laravel/telescope
 ...
 ````
+
 for development
 
 **Breeze** provides a minimal and simple starting point for building a Laravel application with **authentication**.
